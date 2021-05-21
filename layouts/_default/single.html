@@ -19,11 +19,11 @@
 					<h1 class="title">{{ .Title }}</h1>
 				</div>
 			</div>
-					
 			<div class="markdown">
+				<div align = "justify">
 				{{ .Content }}
 			</div>
-
+			</div>
 			<div class="tags">
 				{{ if ne .Type "page" }}
 					{{ if gt .Params.tags 0 }}
